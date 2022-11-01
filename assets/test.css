@@ -1,0 +1,142 @@
+/**mobile screen*/
+@media only screen and (min-width: 576px) {
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+      display: flex;
+      align-items: flex-start;
+    }
+  .Navbar{
+    background: rgb(128,34,128);
+    background: linear-gradient(0deg, rgba(128,34,128,1) 0%, rgba(224,71,129,1) 100%);
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .Navbar__Link {
+    padding: 8px;
+  }
+  .Navbar__Link:hover {
+    background-color: rgb(212, 212, 212);
+    border-radius: 20px;
+  }
+  .Navbar__Link a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 0 20px;
+  }
+  .Navbar__Link ul li:hover {
+    color: #ffff;
+    background-color: rgb(212, 212, 212);
+  }
+    .Navbar__Items {
+      display: none;
+    }
+  
+    .Navbar__Items--right {
+      margin-left: 0;
+    }
+  
+    .Navbar__ToggleShow {
+      display: flex;
+    }
+  
+    .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+      color: #ffff;
+    }
+    .Navbar__Link {
+      padding-top: 10px;
+    }
+    .Nested_Items{
+      position: absolute;
+      right: 60px;
+      width: 140px;
+      list-style: none;
+      padding: 10px 0;
+      display: none;
+      background: rgb(128,34,128);
+      background: linear-gradient(0deg, rgba(128,34,128,1) 0%, rgba(224,71,129,1) 100%);
+      border-radius: 8px;
+    }
+    .search {
+      display: flex;
+      align-items: center;
+      width: 300px;
+      height: 40px;
+      border-radius: 30px;
+      background-color: white;
+      padding: 10px;
+      margin-top: 10px;
+    }
+    .search > i {
+      font-size: 20px;
+      color: #777;
+      padding-right: 10px;
+    }
+    .search > input {
+      flex: 1;
+      height: 40px;
+      border: none;
+      outline: none;
+      font-size: 18px;
+      border-radius: 0px 20px 20px 0px;
+    }
+    
+  .social-btn{
+    position: fixed;
+    top: 50%;
+    right: 10%;
+  }
+  .social-icon{
+    font-size: 1.5rem;
+    background-color: #ffff;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .social-icon i {
+    padding: 0.3rem;
+  }
+  .social-icon:hover{
+    cursor: pointer;
+    background-color: rgb(212, 212, 212);
+  }
+  /*pages*/
+  .pages .page{
+    display: none;
+  }
+  .pages .page.is-active{
+    display: block;
+    margin-top: 5rem;
+    max-width: 60%;
+  }
+  .page-content{
+    color: #303030;
+    padding-top: 1rem;
+  font-size: 1.3rem;
+  }
+  /*About partners , mission, values*/
+  .about, .partners, .mission, .values, .vision, .pharma, .ventures{
+    color: #BE087F;
+    font-size: 3rem;
+  }
+  /*About*/
+  .about > span{
+    color: #303030;
+  }
+  /*health*/
+  .health{
+    color: #ffff;
+    background-color: #BE087F;
+    padding: 10px;
+  }
+  .vision > span {
+    color: #303030;
+  }
+  
+  }
+  

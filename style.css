@@ -1,0 +1,303 @@
+@import url(./assets/fonts/fonts.css);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: ProximaNova;
+  transition: .5s all ease-in-out;
+}
+.container {
+  min-height: 100vh;
+  padding: 5rem;
+  background: linear-gradient(rgb(128 34 128 / 70%),rgba(180, 192, 180, 0.048)),url(./assets/img/banner-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/*/////////////////////////////////////////////////////////////////*/
+@media only screen and (min-width: 576px) {
+  .Navbar__Items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Navbar{
+  flex-direction: column;
+  display: flex;
+  background: rgb(128,34,128);
+  background: linear-gradient(0deg, rgba(128,34,128,1) 0%, rgba(224,71,129,1) 100%);
+  align-items: center;
+  padding-right: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+.Navbar__Link {
+  padding-right: 8px;
+}
+.Navbar__Link:hover {
+  background-color: rgb(212, 212, 212);
+  border-radius: 20px;
+}
+.Navbar__Link a {
+  text-decoration: none;
+  color: #ffff;
+  padding: 0 20px;
+}
+.Navbar__Link ul li:hover {
+  color: #ffff;
+  background-color: rgb(212, 212, 212);
+}
+  .Navbar__Items {
+    display: none;
+  }
+  .Navbar__Items--right {
+    margin-left: 0;
+  }
+  .Navbar__ToggleShow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+    color: #ffff;
+  }
+  .Navbar__Link {
+    padding: 10px;
+  }
+  .Nested_Items{
+    position: absolute;
+    left: 50%;
+    width: 140px;
+    list-style: none;
+    padding: 10px 0;
+    display: none;
+    background: rgb(128,34,128);
+    background: linear-gradient(0deg, rgba(128,34,128,1) 0%, rgba(224,71,129,1) 100%);
+    z-index: 5;
+    border-radius: 8px;
+  }
+  .Navbar__Link:hover > ul {
+    display: block;
+  }
+  .Nested_Items li {
+    position: relative;
+    margin: auto;
+    display: list-item;
+    padding: 5px;
+   }
+  .search {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .search > i {
+    font-size: 20px;
+    color: #777;
+    padding-right: 10px;
+  }
+  .search > input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 0px 20px 20px 0px;
+  }
+.social-btn{
+  position: fixed;
+  top: 50%;
+  right: 10%;
+}
+.social-icon{
+  font-size: 1.5rem;
+  background-color: #ffff;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 20px;
+}
+.social-icon i {
+  padding: 0.3rem;
+}
+.social-icon:hover{
+  cursor: pointer;
+  background-color: rgb(212, 212, 212);
+}
+/*pages*/
+.pages .page{
+  display: none;
+}
+.pages .page.is-active{
+  display: block;
+  margin-top: 5rem;
+  max-width: 80%;
+}
+.page-content{
+  color: #303030;
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+/*About partners , mission, values*/
+.about, .partners, .mission, .values, .vision, .pharma, .ventures,.careers,.news,.contact{
+  color: #BE087F;
+  font-size: 2rem;
+}
+/*About*/
+.about > span{
+  color: #303030;
+}
+/*health*/
+.health{
+  color: #ffff;
+  background-color: #BE087F;
+  padding: 10px;
+}
+.vision > span {
+  color: #303030;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media only screen and (min-width: 992px) {
+  .Navbar {
+    background: rgb(128,34,128);
+    background: linear-gradient(0deg, rgba(128,34,128,1) 0%, rgba(224,71,129,1) 100%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    color: white;
+    border-radius: 0 30px 30px 0;
+    border: 1px solid #ffff ;
+  }
+  .Navbar__Link {
+    padding: 8px;
+  }
+  .Navbar__Link:hover {
+    background-color: rgb(212, 212, 212);
+    border-radius: 20px;
+  }
+  .Navbar__Link a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 0 20px;
+  }
+  .Navbar__Link ul li:hover {
+    color: #ffff;
+    background-color: rgb(212, 212, 212);
+  }
+  .Navbar__Items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .Navbar__Items--right {
+    margin-left: auto;
+  }
+  .Navbar__Link-toggle {
+    display: none;
+  }
+  .Nested_Items{
+    position: absolute;
+    top: auto;
+    left: auto;
+    width: 140px;
+    list-style: none;
+    padding: 10px 0;
+    margin-top: 8px;
+    display: none;
+    background: rgb(128,34,128);
+    background: linear-gradient(0deg, rgba(128,34,128,1) 0%, rgba(224,71,129,1) 100%);
+    border-radius: 8px;
+  }
+  .Navbar__Link:hover > ul {
+    display: block;
+  }
+  .Nested_Items li {
+    padding: 10px;
+    position: relative;
+    margin: auto;
+    display: list-item;
+   }
+  .search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px;
+  }
+  .search > i {
+    font-size: 20px;
+    color: #777;
+    padding-right: 10px;
+  }
+  .search > input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 0px 20px 20px 0px;
+  }
+  .social-btn{
+    position: fixed;
+    top: 50%;
+    right: 10%;
+  }
+  .social-icon{
+    font-size: 1.5rem;
+    background-color: #ffff;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .social-icon i {
+    padding: 0.3rem;
+  }
+  .social-icon:hover{
+    cursor: pointer;
+    background-color: rgb(212, 212, 212);
+  }
+  /*pages*/
+  .pages .page{
+    display: none;
+  }
+  .pages .page.is-active{
+    display: block;
+    margin-top: 5rem;
+    max-width: 70%;
+  }
+  .page-content{
+    color: #303030;
+    padding-top: 1rem;
+  font-size: 1.3rem;
+  }
+  /*About partners , mission, values*/
+  .about, .partners, .mission, .values, .vision, .pharma, .ventures,.careers,.news,.contact{
+    color: #BE087F;
+    font-size: 3rem;
+  }
+  /*About*/
+  .about > span{
+    color: #303030;
+  }
+  /*health*/
+  .health{
+    color: #ffff;
+    background-color: #BE087F;
+    padding: 10px;
+  }
+  .vision > span, .values > span, .mission > span, .partners > span{
+    color: #303030;
+  }
+  }

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WQAYA</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="Navbar">
+        <div class="Navbar__Link-brand">
+         <img src="./assets/img/Logo.png" alt="logo-img" style="width: 200px; height: 70px; background:#ffff">
+        </div>
+         <div class="Navbar__Link Navbar__Link-toggle">
+           <i class="fas fa-bars"></i>
+         </div>
+       <nav class="Navbar__Items">
+         <div class="Navbar__Link tab is-active">
+           <a href="#" data-switcher data-tab="1">HOME</a>
+         </div>
+         <div class="Navbar__Link">
+           <a href="#">ABOUT <i class="fas fa-caret-down"></i></a>
+           <ul class="Nested_Items">
+            <li class="tab"><a href="#" data-switcher data-tab="2">ABOUT US</a></li>
+            <li class="tab"><a href="#" data-switcher data-tab="3">VISION</a></li>
+            <li class="tab"><a href="#" data-switcher data-tab="4">VALUES</a></li>
+            <li class="tab"><a href="#" data-switcher data-tab="5">MISSION</a></li>
+            <li class="tab"><a href="#" data-switcher data-tab="6">PARTNERS</a></li>
+           </ul>
+         </div>
+         <div class="Navbar__Link">
+          <a href="#">SERVICES <i class="fas fa-caret-down"></i></a>
+          <ul class="Nested_Items">
+            <li class="tab"><a href="#" data-switcher data-tab="7">HEALTH</a></li>
+            <li class="tab"><a href="#" data-switcher data-tab="8">PHARMA</a></li>
+            <li class="tab"><a href="#" data-switcher data-tab="9">VENTURES</a></li>
+           </ul>
+        </div>
+         <div class="Navbar__Link tab">
+          <a href="#" data-switcher data-tab="10">NEWS</a>
+        </div>
+         <div class="Navbar__Link tab">
+          <a href="#" data-switcher data-tab="11">CAREERS</a>
+        </div>
+         <div class="Navbar__Link tab">
+          <a href="#" data-switcher data-tab="12">CONTACT</a>
+        </div>
+       </nav>
+       <nav class="Navbar__Items Navbar__Items--right">
+         <div class="search">
+          <i class="fa fa-search"></i>
+          <input type="text" placeholder="Search Now?">
+         </div>
+       </nav>
+     </div>
+     <section class="social-btn">
+      <div class="social-icon"><i class="fa-brands fa-facebook-f" style="color:#1877F2"></i></div>
+      <div class="social-icon"><i class="fa-brands fa-twitter" style="color: #1DA1F2;"></i></div>
+      <div class="social-icon"><i class="fa-brands fa-linkedin-in" style="color:#0A66C2;"></i></div>
+      <div class="social-icon"><i class="fa-brands fa-goodreads-g" style="color: #CD201F;"></i></div>
+      <div class="social-icon"><i class="fa-brands fa-instagram" style="color: #E4405F;"></i></div>
+      <div class="social-icon"><i class="fa-brands fa-youtube" style="color: #CD201F;"></i></div>
+     </section>
+     <section class="pages">
+      <div class="page is-active" data-page="1">
+        <!-- <h1>Page 1</h1> -->
+      </div>
+      <div class="page" data-page="2">
+        <h1 class="about">ABOUT <span>US</span></h1>
+        <p class="page-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt rerum dicta soluta beatae ex suscipit odit laboriosam libero? Maxime repudiandae natus, earum facilis tempore culpa possimus laboriosam accusamus nihil ea vel excepturi ipsum explicabo sint maiores dicta architecto pariatur, iste quae dolores porro ducimus saepe? Suscipit aliquam soluta culpa libero aspernatur, voluptates itaque possimus dolor reprehenderit magni, exercitationem aut, nostrum porro illo iusto numquam temporibus sed quas labore voluptatum sint fuga. Quia voluptate, iure exercitationem rem sit nihil officia fuga autem dicta! Distinctio temporibus tempore, voluptate minus dolorem eos molestiae ab sed at, reiciendis repellat eius fugiat voluptatibus voluptatum amet.</p>
+      </div>
+      <div class="page" data-page="3">
+        <h1 class="vision">VISI<span><i class="fa-solid fa-eye"></i></span>N</h1>
+        <p class="page-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt rerum dicta soluta beatae ex suscipit odit laboriosam libero? Maxime repudiandae natus, earum facilis tempore culpa possimus laboriosam accusamus nihil ea vel excepturi ipsum explicabo sint maiores dicta architecto pariatur, iste quae dolores porro ducimus saepe? Suscipit aliquam soluta culpa libero aspernatur, voluptates itaque possimus dolor reprehenderit magni, exercitationem aut, nostrum porro illo iusto numquam temporibus sed quas labore voluptatum sint fuga. Quia voluptate, iure exercitationem rem sit nihil officia fuga autem dicta! Distinctio temporibus tempore, voluptate minus dolorem eos molestiae ab sed at, reiciendis repellat eius fugiat voluptatibus voluptatum amet.</p>
+      </div>
+      <div class="page" data-page="4">
+        <h1 class="values">VALUES<span><i class="fa-solid fa-gem"></i></span></h1>
+        <p class="page-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt rerum dicta soluta beatae ex suscipit odit laboriosam libero? Maxime repudiandae natus, earum facilis tempore culpa possimus laboriosam accusamus nihil ea vel excepturi ipsum explicabo sint maiores dicta architecto pariatur, iste quae dolores porro ducimus saepe? Suscipit aliquam soluta culpa libero aspernatur, voluptates itaque possimus dolor reprehenderit magni, exercitationem aut, nostrum porro illo iusto numquam temporibus sed quas labore voluptatum sint fuga. Quia voluptate, iure exercitationem rem sit nihil officia fuga autem dicta! Distinctio temporibus tempore, voluptate minus dolorem eos molestiae ab sed at, reiciendis repellat eius fugiat voluptatibus voluptatum amet.</p>
+      </div>
+      <div class="page" data-page="5">
+        <h1 class="mission">MISSI<span><i class="fa-solid fa-bullseye"></i></span> N</h1>
+        <p class="page-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt rerum dicta soluta beatae ex suscipit odit laboriosam libero? Maxime repudiandae natus, earum facilis tempore culpa possimus laboriosam accusamus nihil ea vel excepturi ipsum explicabo sint maiores dicta architecto pariatur, iste quae dolores porro ducimus saepe? Suscipit aliquam soluta culpa libero aspernatur, voluptates itaque possimus dolor reprehenderit magni, exercitationem aut, nostrum porro illo iusto numquam temporibus sed quas labore voluptatum sint fuga. Quia voluptate, iure exercitationem rem sit nihil officia fuga autem dicta! Distinctio temporibus tempore, voluptate minus dolorem eos molestiae ab sed at, reiciendis repellat eius fugiat voluptatibus voluptatum amet.</p>
+      </div>
+      <div class="page" data-page="6">
+        <h1 class="partners">PARTNERS <span><i class="fa-solid fa-handshake"></i></span></h1>
+        <p class="page-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt rerum dicta soluta beatae ex suscipit odit laboriosam libero? Maxime repudiandae natus, earum facilis tempore culpa possimus laboriosam accusamus nihil ea vel excepturi ipsum explicabo sint maiores dicta architecto pariatur, iste quae dolores porro ducimus saepe? Suscipit aliquam soluta culpa libero aspernatur, voluptates itaque possimus dolor reprehenderit magni, exercitationem aut, nostrum porro illo iusto numquam temporibus sed quas labore voluptatum sint fuga. Quia voluptate, iure exercitationem rem sit nihil officia fuga autem dicta! Distinctio temporibus tempore, voluptate minus dolorem eos molestiae ab sed at, reiciendis repellat eius fugiat voluptatibus voluptatum amet.</p>
+      </div>
+      <div class="page" data-page="7">
+        <h1 class="health">HEALTH</h1>
+        <p class="page-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quis corrupti corporis iste voluptatibus iusto quo similique eos, reiciendis nesciunt, a aliquam fugiat doloremque, nihil eius suscipit cumque recusandae quia non? Aliquam beatae fugiat dolor magnam veritatis eaque, iusto culpa cupiditate labore vero, quasi mollitia laborum libero maiores nostrum accusantium possimus, qui eveniet eius nisi voluptatibus quas necessitatibus ex. Mollitia harum quaerat voluptate quae, nisi recusandae, ullam nostrum rem magni accusantium, totam ad eum sunt! Voluptate, odit suscipit recusandae quas impedit obcaecati cupiditate officiis minus soluta sunt! Suscipit nihil, placeat, impedit facilis repellat eaque, quae quisquam perspiciatis ex quasi laborum.</p>
+      </div>
+      <div class="page" data-page="8">
+        <h1 class="pharma">PHARMA</h1>
+        <p class="page-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quis corrupti corporis iste voluptatibus iusto quo similique eos, reiciendis nesciunt, a aliquam fugiat doloremque, nihil eius suscipit cumque recusandae quia non? Aliquam beatae fugiat dolor magnam veritatis eaque, iusto culpa cupiditate labore vero, quasi mollitia laborum libero maiores nostrum accusantium possimus, qui eveniet eius nisi voluptatibus quas necessitatibus ex. Mollitia harum quaerat voluptate quae, nisi recusandae, ullam nostrum rem magni accusantium, totam ad eum sunt! Voluptate, odit suscipit recusandae quas impedit obcaecati cupiditate officiis minus soluta sunt! Suscipit nihil, placeat, impedit facilis repellat eaque, quae quisquam perspiciatis ex quasi laborum.</p>
+      </div>
+      <div class="page" data-page="9">
+        <h1 class="ventures">VENTURES</h1>
+        <p class="page-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quis corrupti corporis iste voluptatibus iusto quo similique eos, reiciendis nesciunt, a aliquam fugiat doloremque, nihil eius suscipit cumque recusandae quia non? Aliquam beatae fugiat dolor magnam veritatis eaque, iusto culpa cupiditate labore vero, quasi mollitia laborum libero maiores nostrum accusantium possimus, qui eveniet eius nisi voluptatibus quas necessitatibus ex. Mollitia harum quaerat voluptate quae, nisi recusandae, ullam nostrum rem magni accusantium, totam ad eum sunt! Voluptate, odit suscipit recusandae quas impedit obcaecati cupiditate officiis minus soluta sunt! Suscipit nihil, placeat, impedit facilis repellat eaque, quae quisquam perspiciatis ex quasi laborum.</p>
+      </div>
+      <div class="page" data-page="10">
+        <h1 class="news">NEWS</h1>
+        <p class="page-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quis corrupti corporis iste voluptatibus iusto quo similique eos, reiciendis nesciunt, a aliquam fugiat doloremque, nihil eius suscipit cumque recusandae quia non? Aliquam beatae fugiat dolor magnam veritatis eaque, iusto culpa cupiditate labore vero, quasi mollitia laborum libero maiores nostrum accusantium possimus, qui eveniet eius nisi voluptatibus quas necessitatibus ex. Mollitia harum quaerat voluptate quae, nisi recusandae, ullam nostrum rem magni accusantium, totam ad eum sunt! Voluptate, odit suscipit recusandae quas impedit obcaecati cupiditate officiis minus soluta sunt! Suscipit nihil, placeat, impedit facilis repellat eaque, quae quisquam perspiciatis ex quasi laborum.</p>
+      </div>
+      <div class="page" data-page="11">
+        <h1 class="careers">CAREERS</h1>
+        <p class="page-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quis corrupti corporis iste voluptatibus iusto quo similique eos, reiciendis nesciunt, a aliquam fugiat doloremque, nihil eius suscipit cumque recusandae quia non? Aliquam beatae fugiat dolor magnam veritatis eaque, iusto culpa cupiditate labore vero, quasi mollitia laborum libero maiores nostrum accusantium possimus, qui eveniet eius nisi voluptatibus quas necessitatibus ex. Mollitia harum quaerat voluptate quae, nisi recusandae, ullam nostrum rem magni accusantium, totam ad eum sunt! Voluptate, odit suscipit recusandae quas impedit obcaecati cupiditate officiis minus soluta sunt! Suscipit nihil, placeat, impedit facilis repellat eaque, quae quisquam perspiciatis ex quasi laborum.</p>
+      </div>
+      <div class="page" data-page="12">
+        <h1 class="contact">CONTACT</h1>
+        <p class="page-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quis corrupti corporis iste voluptatibus iusto quo similique eos, reiciendis nesciunt, a aliquam fugiat doloremque, nihil eius suscipit cumque recusandae quia non? Aliquam beatae fugiat dolor magnam veritatis eaque, iusto culpa cupiditate labore vero, quasi mollitia laborum libero maiores nostrum accusantium possimus, qui eveniet eius nisi voluptatibus quas necessitatibus ex. Mollitia harum quaerat voluptate quae, nisi recusandae, ullam nostrum rem magni accusantium, totam ad eum sunt! Voluptate, odit suscipit recusandae quas impedit obcaecati cupiditate officiis minus soluta sunt! Suscipit nihil, placeat, impedit facilis repellat eaque, quae quisquam perspiciatis ex quasi laborum.</p>
+      </div>
+     </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
